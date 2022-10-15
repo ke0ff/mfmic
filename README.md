@@ -8,10 +8,13 @@ The design data is subdivided by MCU, Then subdivided into HW and SW.  At the mo
 HM133:<br>
 One (1) PCB and one (1) SW source package.  There is also an OpenSCAD 3D-printed housing included in the hardware section.
 
-RCA:<br>
-     IC901_SRAM100: holds the ATTINY816<br>
-     IC901_KEYMUC400: holds the key-matrix muxing circuits<br>
-     IC901_SRAM200: The 32K SRAM adapter PCB<br>
-     IC901_LED300: A small, 7-seg LED display PCB for displaying the SRAM bank setting<br>
+RCA Hardware:<br>
+  IC901_SRAM100: holds the ATTINY816<br>
+  IC901_KEYMUC400: holds the key-matrix muxing circuits<br>
+  IC901_SRAM200: The 32K SRAM adapter PCB<br>
+  IC901_LED300: A small, 7-seg LED display PCB for displaying the SRAM bank setting<br>
+<br>
+RCA Software:<br>
+  SW_MFmic_IC901.zip<br>
 
 https://ke0ff.github.io/mfmic/ holds user field support documentation.
